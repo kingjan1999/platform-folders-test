@@ -1,10 +1,16 @@
 {
-  "name": "test",
+  "name": "platform-folders-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "license": "MIT",
   "dependencies": {
     "platform-folders": "^0.3.2"
   },
-  "scripts": {"test": "node index.js"}
+  "scripts": {
+    "start": "electron .",
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "electron": "^4.0.4"
+  }
 }
